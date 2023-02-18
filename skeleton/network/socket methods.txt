@@ -1,0 +1,24 @@
+accept()                               : accepte une connexion, retourne un nouveau socket et une adresse client 
+bind(addr)                             : associe le socket à une adresse locale
+close()                                : ferme le socket
+connect(addr)                          : connecte le socket à une adresse distante 
+connect_ex(addr)                       : connect, retourne un code erreur au lieu d'une exception
+dup()                                  : retourne un nouveau objet socket identique à celui en cours
+fileno()                               : retourne une description du fichier
+getpeername()                          : retourne l'adresse distante
+getsockname()                          : retourne l'adresse locale
+getsockopt(level, optname[, buflen])   : retourne les options du socket
+gettimeout()                           : retourne le timeout ou none
+listen(n)                              : commence à écouter les connexions entrantes
+makefile([mode, [bufsize]])            : retourne un fichier objet pour le socket
+recv(buflen[, flags])                  : recoit des données
+recv_into(buffer[, nbytes[, flags]])   : recoit des données (dans un buffer)
+recvfrom(buflen[, flags])              : reçoit des données et l'adresse de l'envoyeur
+recvfrom_into(buffer[,nbytes,[,flags]) : reçoit des données et l'adresse de l'envoyeur (dans un buffer)
+sendall(data[, flags])                 : envoye toutes les données
+send(data[, flags])                    : envoye des données mais il se peut que pas toutes le soit
+sendto(data[, flags], addr)            : envoye des données à une adresse donnée
+setblocking(0 | 1)                     : active ou désactive le blocage le flag I/O
+setsockopt(level, optname, value)      : définit les options du socket
+settimeout(None | float)               : active ou désactive le timeout
+shutdown(how)                          : fermer les connexions dans un ou les deux sens.
