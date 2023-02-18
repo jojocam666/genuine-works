@@ -1,0 +1,3 @@
+La Blockchain est distribuée aux acteurs du réseau P2P, donc chaque acteur possède une copie de la Blockchain
+La Blockchain est composée d’une chaine de blocs, chaque bloc connaît son père. Le maillage s’effectue grâce à la fonction mathématique de Hachage
+Le bloc est composé de deux parties. Un Header qui contient les paramètres du protocole et un Body qui est composé d’une liste de transactions
