@@ -1,4 +1,5 @@
 # coding: utf-8
+#écoute les requêtes des clients
 
 import socket
 
