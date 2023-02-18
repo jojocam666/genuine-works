@@ -1,4 +1,6 @@
-#Est une machine sur laquelle est installée une copie de la Blockchain
+#Est une machine sur laquelle est installée une copie de la Blockchain:
+      travailler sur leur participation et connexion au réseau;également sur la validation des blocs via le programme autonome de consensus.
+      travailler également sur les framework pour créer et installer des noeuds
 
 #Si le propriétaire du nœud participe à la validation des blocs, il est appelé mineur
 
