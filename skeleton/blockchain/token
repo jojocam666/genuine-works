@@ -1,1 +1,8 @@
+Nous pouvons définir différents types de Token à partir des attributs suivants :
 
+Il est transférable ou pas. C’est la capacité à pouvoir changer le propriétaire du Token. Exemple : la monnaie est transférable, un badge d’identité n’est pas transférable
+Il est Subdivisable ou entier. Le Token peut être divisé en Token de plus petite taille. Exemple : la monnaie est divisible, un vote est entier
+Il est Singleton. Il existe uniquement une instance de ce Token. Exemple : une œuvre d’art existe en un seul exemplaire
+Il est Mint-able. C’est la capacité à émettre de nouveaux Tokens. Exemple : il y a un apport de monnaie sur le réseau grâce au mineur
+Il est Role support. C’est la capacité à gérer des rôles pour contrôler. Exemple : la gestion des rôles sur une Blockchain
+Il est Burnable. C’est la capacité à supprimer un Token de la Blockchain. Exemple : un Baril d’essence disparait une fois consommé
